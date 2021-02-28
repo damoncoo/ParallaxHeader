@@ -9,5 +9,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.swift_version = '5.0'
   s.ios.deployment_target = "8.0"
+  s.source = 'https://github.com/damoncoo/ParallaxHeader.git'
   s.source_files  = "ParallaxHeader/*.swift"
 end
